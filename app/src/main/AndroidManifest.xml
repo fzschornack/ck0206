@@ -15,6 +15,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".AnotherActivity">
+            <intent-filter>
+                <action android:name="com.example.a0330824.ck0206.AnotherActivity"></action>
+                <category android:name="com.example.a0330824.ck0206.CATEGORIA"></category>
+                <category android:name="com.example.a0330824.ck0206.DEFAULT"></category>
+                <data android:mimeType="text/plain"></data>
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
